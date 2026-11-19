@@ -1,0 +1,12 @@
+[buildpacks]
+[[buildpacks]]
+uri = "https://github.com/heroku/buildpacks-ruby.git"
+
+[run]
+default_process_types = {}
+
+[default_process_types]
+web = ""
+
+[metadata]
+description = "Blocco Note CP — minimale blocco note in stile Windows 10 per macOS (Rust iced+wgpu)"

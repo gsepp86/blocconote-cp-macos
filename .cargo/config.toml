@@ -1,0 +1,4 @@
+[target.x86_64-apple-darwin]
+cc = "zig"
+ar = "zig ar"
+linker = "zig ld"

@@ -1,0 +1,11 @@
+[package]
+name = "blocco-note-cp"
+version = "0.1.0"
+edition = "2021"
+description = "Blocco Note CP — blocco note minimale in stile Windows 10 per macOS"
+license = "MIT"
+
+[dependencies]
+iced = { version = "=0.12.1", default-features = false, features = ["wgpu"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"

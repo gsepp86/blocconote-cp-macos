@@ -1,0 +1,4 @@
+/target
+check-objc.sh
+zig-cache
+~/
